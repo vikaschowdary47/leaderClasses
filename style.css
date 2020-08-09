@@ -24,3 +24,11 @@ nav a:hover{
     width: 100%;
     /* height: 500px; */
 }
+.know-btn{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* position: absolute; */
+    right: 230px;
+    top: 330px;
+}
