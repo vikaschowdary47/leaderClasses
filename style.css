@@ -86,9 +86,9 @@ nav a:hover{
     cursor: pointer;
     transform: scale(1.07);
 }
-.carousel-item{
+/* .carousel-item{
     height: 500px;
-}
+} */
 .image-carousel{
     object-fit: contain;
     width: 400px;
