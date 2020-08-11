@@ -13,7 +13,18 @@ nav ul{
 nav a:hover{
  background-color: #ffbd0a;
 }
-
+.navbar{
+    padding: 0;
+}
+.navbar-nav li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar-toggler{
+    font-size: 20px;
+    outline: hidden;
+}
 .header{
     position: relative;
     object-fit: contain;
