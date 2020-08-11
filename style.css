@@ -21,15 +21,20 @@ nav a:hover{
     font-size: 20px;
     font-weight: 600;
 }
+.navbar-collapse{
+    text-align: right;
+    /* padding: 2px; */
+    margin-left: 2px;
+}
 .navbar-toggler{
-    font-size: 20px;
-    outline: hidden;
+    font-size: 25px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 .header{
     position: relative;
     object-fit: contain;
-    /* background-image: url('./images/background-header.jpg'); */
-    /* background-position: center; */
     background-size: cover;
 }
 .bg-img{
