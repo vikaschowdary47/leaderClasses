@@ -40,12 +40,12 @@ nav a:hover{
 }
 /* .navbar-collapse li:nth-last-of-type(1) a{
     background-color: i;
-    /* font-size: 50px; */
+    font-size: 50px;
     border: none;
     background-color: inherit;
     border-radius: 0;
-}
-.navbar-collapse li:nth-last-of-type(1) a:hover{
+} */
+/* .navbar-collapse li:nth-last-of-type(1) a:hover{
  background-color: #ffbd0a;
 
 } */
