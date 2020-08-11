@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,700&display=swap');
 *,html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     width: 100%;
@@ -18,17 +22,37 @@ nav a:hover{
 }
 .navbar-nav li{
     margin-left: 50px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
+.contact{
+    border: solid;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 1px;
+    background-color: #ffbd0a;
+}
+
 .navbar-collapse{
     text-align: right;
-    /* padding: 2px; */
-    margin-left: 2px;
 }
+/* .navbar-collapse li:nth-last-of-type(1) a{
+    background-color: i;
+    /* font-size: 50px; */
+    border: none;
+    background-color: inherit;
+    border-radius: 0;
+}
+.navbar-collapse li:nth-last-of-type(1) a:hover{
+ background-color: #ffbd0a;
+
+} */
 .navbar-toggler{
     font-size: 25px;
 }
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -50,17 +74,21 @@ nav a:hover{
 .sub-heading{
     text-align: center;
     background-color: #f2e7cd;
+    font-size: 1em;
 }
 .head1{
     text-align: center;
+    font-weight: 900;
+    font-size: 1em;
 }
 
 .uni{
     width: 90%;
     margin: 0 auto;
 }
-.uni h5{
+.uni {
     text-align:center;
+    font-weight: 400;
 
 }
 .uni img{
@@ -86,6 +114,8 @@ nav a:hover{
     overflow-x: scroll;
     width: 90%;
     margin: 30px auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
 }
 .people-images::-webkit-scrollbar{
     display: none;
@@ -120,4 +150,24 @@ nav a:hover{
 .video{
 margin: 0 auto;
     
+}
+/* .partner{
+    background-size: cover;
+    position: relative;
+}
+.partner img{
+    width: 100%;
+    height: 400px;
+    /* background-size: cover; */
+    /* opacity: 0.5;
+} */
+/* .partner p {
+    position: absolute;
+    top: 0;
+    text-align: center;
+} */ 
+.partner{
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+ padding: 10em;
 }
