@@ -3,10 +3,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Poppins', sans-serif;
+}
+.arrow{
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+    color: white;
+    background-color: #ffbd0a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.arrow-anchor{
+    list-style: none;
+    opacity: 0.7;
 }
 nav{
     width: 100%;
@@ -69,6 +83,7 @@ nav a:hover{
 .know-btn a:hover{
     color: #ffbd0a;
 }
+
 /* stylish button */
 .know-btn button{
     background:#ffbd0a;
@@ -110,7 +125,6 @@ nav a:hover{
   
 .sub-heading{
     text-align: center;
-    /* background-color: #f2e7cd; */
     font-size: .8em;
     position: relative;
     padding: 20px;
@@ -204,14 +218,11 @@ nav a:hover{
     object-fit: contain;
     width: 400px;
     max-height: 400px;
-    /* float: right; */
 }
 .name{
     text-align: center;
 }
-.role{
-    /* float: right; */
-}
+
 .video{
 margin: 0 auto;
     
@@ -248,7 +259,6 @@ footer{
     background-color: lightgray;
 }
 .footer-links{
-    /* margin-top: 30px; */
     padding-top: 20px;
     display: flex;
     width: 80%;
@@ -277,7 +287,6 @@ footer{
 }
 footer ul {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -371,16 +380,15 @@ footer  ul li {
     .contact{
         border: none;
         border-radius: 0;
-        /* font-size: 16px;
-        font-weight: 400;
-        padding: 10px;
-        margin-top: 1px; */
         background-color: white;
     } 
 
     .know-btn{
         right: 45%;
         bottom: 25%;
+    }
+    .foot{
+        margin-left: 10px;
     }
  }
 
