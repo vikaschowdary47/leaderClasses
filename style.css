@@ -38,7 +38,9 @@ nav a:hover{
 .navbar-collapse{
     text-align: right;
 }
-
+.navbar-collapse a:last-child{
+    color: white;
+}
 .navbar-toggler{
     font-size: 25px;
 }
@@ -60,10 +62,56 @@ nav a:hover{
     right: 50%;
     bottom: 25%;
 }
+.know-btn a{
+    text-decoration: none;
+    color: white;
+}
+.know-btn a:hover{
+    color: #ffbd0a;
+}
+/* stylish button */
+.know-btn button{
+    background:#ffbd0a;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:50px;
+    font-size:1.2em;
+    font-weight: 600;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .know-btn button:hover{
+    background:#fff;
+    color:#ffbd0a;
+  }
+  .know-btn button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #ffbd0a;
+    transition:400ms ease all;
+  }
+  .know-btn button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .know-btn button:hover:before,.know-btn button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
 .sub-heading{
     text-align: center;
     /* background-color: #f2e7cd; */
-    font-size: 1em;
+    font-size: .8em;
     position: relative;
     padding: 20px;
 }
@@ -151,9 +199,7 @@ nav a:hover{
     cursor: pointer;
     transform: scale(1.07);
 }
-/* .carousel-item{
-    height: 500px;
-} */
+
 .image-carousel{
     object-fit: contain;
     width: 400px;
@@ -319,3 +365,28 @@ footer  ul li {
       text-align: center;
       padding: 5px 3px;
   }
+
+  /* media query */
+ @media only screen and (max-width:995px){
+    .contact{
+        border: none;
+        border-radius: 0;
+        /* font-size: 16px;
+        font-weight: 400;
+        padding: 10px;
+        margin-top: 1px; */
+        background-color: white;
+    } 
+
+    .know-btn{
+        right: 45%;
+        bottom: 25%;
+    }
+ }
+
+ @media only screen and (max-width:600px){
+    .know-btn{
+        right: 30%;
+        bottom: 10%;
+    }
+ }
