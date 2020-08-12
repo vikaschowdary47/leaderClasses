@@ -261,6 +261,7 @@ footer{
 .footer-links{
     padding-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     align-items: center;
@@ -386,9 +387,6 @@ footer  ul li {
     .know-btn{
         right: 45%;
         bottom: 25%;
-    }
-    .foot{
-        margin-left: 10px;
     }
  }
 
