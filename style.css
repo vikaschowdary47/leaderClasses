@@ -38,17 +38,7 @@ nav a:hover{
 .navbar-collapse{
     text-align: right;
 }
-/* .navbar-collapse li:nth-last-of-type(1) a{
-    background-color: i;
-    font-size: 50px;
-    border: none;
-    background-color: inherit;
-    border-radius: 0;
-} */
-/* .navbar-collapse li:nth-last-of-type(1) a:hover{
- background-color: #ffbd0a;
 
-} */
 .navbar-toggler{
     font-size: 25px;
 }
@@ -63,7 +53,6 @@ nav a:hover{
 }
 .bg-img{
     width: 100%;
-    /* height: 500px; */
     opacity: 0.9;
 }
 .know-btn{
@@ -75,6 +64,14 @@ nav a:hover{
     text-align: center;
     background-color: #f2e7cd;
     font-size: 1em;
+}
+.sub-heading::before{
+    content: 'heading';
+    width: 100px;
+    height: 50px;
+    color: #ffbd0a;
+    left: 0;
+    position: absolute;
 }
 .head1{
     text-align: center;
@@ -169,5 +166,21 @@ margin: 0 auto;
 .partner{
     background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
  background-blend-mode: screen;
- padding: 10em;
+ border: 3px solid #ffbd0a;
+
+ padding: 6em;
+ margin-top: 10px;
+}
+.partner-inside {
+    text-align: center;
+    line-height: 1.5rem;
+}
+.p1{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.partner-inside span{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffbd0a;
 }
